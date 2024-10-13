@@ -173,7 +173,7 @@ def process_all_files(directory, exclude_feature=None):
     Elenca tutti i file JSON nella directory specificata e valuta le prestazioni.
     """
     for filename in os.listdir(directory):
-        if filename.endswith('_LLM.json'):  # Assicurati che il file termini con '_FINALE.json'
+        if filename.endswith('_LLM.json'): # Processa il file con tutti i risultati, pure quelli della LLM
             file_path = os.path.join(directory, filename)
             evaluate_performance(file_path, exclude_feature)
 
