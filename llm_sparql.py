@@ -185,7 +185,7 @@ def generate_price_clause(price):
     return ""
 
 
-# URL del tuo server Fuseki
+# URL del server Fuseki locale
 FUSEKI_URL = "http://localhost:3030/ds"
 EXCEL_FILE = 'prodotti_finale.xlsx'
 
@@ -258,10 +258,10 @@ for filename in os.listdir(json_folder):
             sparql_query = generate_sparql_query(extracted_dict)
             print(f"Query SPARQL generata:\n{sparql_query}")
 
-            # Esegui la query SPARQL generata
+            # Esegue la query SPARQL generata
             llm_sparql_results = execute_sparql_query(sparql_query)
 
-            # Estrai URI dai risultati SPARQL
+            # Estrae URI dai risultati SPARQL
             uri_list = extract_uris(llm_sparql_results) if llm_sparql_results else []
 
             # Carica la mappatura URI -> ID dal file Excel
@@ -274,7 +274,7 @@ for filename in os.listdir(json_folder):
             query_obj["llm_sparql"] = sparql_query
             query_obj["llm_results"] = id_list
 
-            # Aggiungi l'oggetto aggiornato alla lista
+            # Aggiunge l'oggetto aggiornato alla lista
             updated_data.append(query_obj)
 
         # Crea un nuovo nome per il file JSON
