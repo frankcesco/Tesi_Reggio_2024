@@ -5,6 +5,7 @@ Questo repository contiene il codice sviluppato per l'applicazione del framework
 ### Contenuto del repository:
 - **Scraping dei dati JSON-LD**: Script per estrarre i dati strutturati in JSON-LD dei prodotti dal sito di eCommerce.
 - **Raffinamento dei dati strutturati**: Script che inserisce informazioni aggiuntive nei dati strutturati dei prodotti.
+- **Classificazione con LLM**: Script per classificare le categorie olfattive a partire dai prodotti.
 - **Creazione della ground truth**: Script per la creazione della ground truth della fase di valutazione.
 - **Generazione e analisi delle query**: Script per la costruzione ed esecuzione delle query in linguaggio naturale e in SPARQL.
 - **Valutazione dei risultati**: Codice per calcolare metriche quantitative di precisione, richiamo e F1 measure sui risultati ottenuti dai sistemi.
