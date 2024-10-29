@@ -2,9 +2,13 @@
 
 Questo repository contiene il codice sviluppato per l'applicazione del framework proposto nella tesi *"Annotazione Semantica di pagine Web di eCommerce mediante Schema.org ed Applicazione ad un Caso Aziendale"* di Reggio Francesco Maria dell'Università degli Studi di Bari Aldo Moro per l'anno accademico 2023-2024.
 
-Il framework applicato è composto da tre fasi successive di *Annotazione*, in cui il sito è sottoposto alla generazione di annotazioni semantiche, *Raffinamento*, in cui le annotazioni semantiche generate sono migliorate e di *Valutazione* in cui si misura il miglioramento nei task di ricerca dovuto all'introduzione delle annotazioni semantiche. Le tre fasi sono schematizzate nella figura seguente.
+Il framework applicato è composto da tre fasi successive di *Annotazione*, in cui il sito è sottoposto alla generazione di annotazioni semantiche, *Raffinamento*, in cui le annotazioni semantiche generate sono migliorate, e di *Valutazione*, in cui si misura il miglioramento nei task di ricerca dovuto all'introduzione delle annotazioni semantiche.
 
-Per ogni fase, è presente una cartella contenente i file sviluppati appositamente per l'applicazione del framework ad un sito di eCommerce realmente esistente.
+Per ognuna delle tre fasi, è presente una cartella contenente i file sviluppati appositamente per l'applicazione del framework ad un sito di eCommerce realmente esistente. Le tre fasi sono schematizzate nella figura seguente. 
+
+<div align="center">
+  <img src="./SLIDES%20annotazione.png" alt="SLIDES Annotazione" width="80%">
+</div>
 
 ### Contenuto del repository:
 - **Scraping dei dati JSON-LD**: Script per estrarre i dati strutturati in JSON-LD dei prodotti dal sito di eCommerce.
