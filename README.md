@@ -2,7 +2,7 @@
 
 Questo repository contiene il codice sviluppato per l'applicazione del framework proposto nella tesi *"Annotazione Semantica di pagine Web di eCommerce mediante Schema.org ed Applicazione ad un Caso Aziendale"* di Reggio Francesco Maria dell'Università degli Studi di Bari Aldo Moro per l'anno accademico 2023-2024.
 
-Il framework applicato è composto da tre fasi successive di *Annotazione*, in cui il sito è sottoposto alla generazione di annotazioni semantiche, *Raffinamento*, in cui le annotazioni semantiche generate sono migliorate, e di *Valutazione*, in cui si misura il miglioramento nei task di ricerca dovuto all'introduzione delle annotazioni semantiche.
+Il framework applicato è composto da tre fasi successive di *Annotazione*, in cui il sito è sottoposto alla generazione di annotazioni semantiche, di *Raffinamento*, in cui le annotazioni semantiche generate sono migliorate, e di *Valutazione*, in cui si misura il miglioramento nei task di ricerca dovuto all'introduzione delle annotazioni semantiche.
 
 Per ognuna delle tre fasi, è presente una cartella contenente i file sviluppati appositamente per l'applicazione del framework ad un sito di eCommerce realmente esistente. Le tre fasi sono schematizzate nella figura seguente. 
 
